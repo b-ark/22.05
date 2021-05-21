@@ -14,5 +14,5 @@ while keyword == 'y' or keyword == 'Y':
     keyword = input('Do you want to try again? ("y" - yes, "n" - no) ')
     
     # фраза для пользователей, которые не читают иснтрукцию :)
-    if keyword != 'y' or keyword != 'Y' or keyword != 'n' or keyword != 'N':
+    if keyword != 'y' and keyword != 'Y' and keyword != 'n' and keyword != 'N':
         print('I will consider this as "no"')

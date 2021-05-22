@@ -9,7 +9,8 @@ while keyword == 'y' or keyword == 'Y':
         result = startStr[0:2] + startStr[-2:]
         print('\n', startStr, ' ---> ', result, sep='')
     else:
-        print('')
+        result = ''
+        print(reault)
         
     keyword = input('Do you want to try again? ("y" - yes, "n" - no) ')
     

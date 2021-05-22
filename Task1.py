@@ -1,5 +1,5 @@
-# решил сделать программу "многоразовой"
-# переменная "keyword" - ключ для остановки программы
+#  решил сделать программу "многоразовой"
+#  переменная "keyword" - ключ для остановки программы
 keyword = 'y'
 
 while keyword == 'y' or keyword == 'Y':
@@ -13,6 +13,6 @@ while keyword == 'y' or keyword == 'Y':
         
     keyword = input('Do you want to try again? ("y" - yes, "n" - no) ')
     
-    # фраза для пользователей, которые не читают иснтрукцию :)
+    #  фраза для пользователей, которые не читают иснтрукцию :)
     if keyword != 'y' and keyword != 'Y' and keyword != 'n' and keyword != 'N':
         print('I will consider this as "no"')

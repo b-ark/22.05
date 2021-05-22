@@ -10,6 +10,6 @@ if phoneNumber.isdigit() == True:
         if phoneNumber[:3] == '380':
             print('You are from Ukraine!')
     else:
-        print('Invalid phone number! It must be only 10 characters long!')
+        print('Invalid phone number! It must be only 12 characters long!')
 else:
     print('Invalid phone number! It must contain only only numerical characters!')
